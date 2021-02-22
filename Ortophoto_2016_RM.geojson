@@ -4,7 +4,7 @@
         "description": "GSI Kiban 2500 via aginfo.cgk.affrc.go.jp. Good for tracing, but a bit older.",
         "id": "Ortofoto_2016_RM",
         "name": "2016 Ortofoto RM",
-        "type": "tms",
+        "type": "wmts",
         "url": "https://moldova-map.md/geoserver/gwc/service/wmts?layer=orthophoto:Ortofoto_2016_RM&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
         "country_code": "MD",
         "license_url": "https://wiki.openstreetmap.org/wiki/GSI_KIBAN",
@@ -14,7 +14,7 @@
         },
         "max_zoom": 20,
         "min_zoom": 15,
-        "category": "map",
+        "category": "photo",
         "privacy_policy_url": "http://www.naro.affrc.go.jp/privacy_policy.html"
     },
  "geometry": {

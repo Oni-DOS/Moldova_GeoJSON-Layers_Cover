@@ -17,11 +17,11 @@
         "category": "map",
         "privacy_policy_url": "http://www.naro.affrc.go.jp/privacy_policy.html"
     },
-	[
-    "geometry": {
+ "geometry": {
         "type": "Polygon",
-                "coordinates": [
-                    [
+        "coordinates": [
+            [
+                [
                         27.63816764832,
                         47.29879105516
                     ],
@@ -1728,9 +1728,8 @@
                     [
                         27.63816764832,
                         47.29879105516
-                    ]
                 ]
-            }
-        }
-    ]
+            ]
+        ]
+    }
 }

@@ -1,19 +1,24 @@
-
 {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "bbox": [
-        27.98608300000,
-        47.03684800000,
-        27.98684480000,
-        47.03729400000
-    ],
-    "features": [
-        {
-            "type": "Feature",
-            "properties": null,
-            "geometry": {
-                "type": "LineString",
+    "type": "Feature",
+    "properties": {
+        "description": "GSI Kiban 2500 via aginfo.cgk.affrc.go.jp. Good for tracing, but a bit older.",
+        "id": "Ortofoto_2016_RM",
+        "name": "2016 Ortofoto RM",
+        "type": "tms",
+        "url": "https://moldova-map.md/geoserver/gwc/service/wmts?layer=orthophoto:Ortofoto_2016_RM&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
+        "country_code": "MD",
+        "license_url": "https://wiki.openstreetmap.org/wiki/GSI_KIBAN",
+        "attribution": {
+            "url": "https://aginfo.cgk.affrc.go.jp/mapprv/tou.html.ja",
+            "text": "GSI KIBAN 2500"
+        },
+        "max_zoom": 20,
+        "min_zoom": 15,
+        "category": "map",
+        "privacy_policy_url": "http://www.naro.affrc.go.jp/privacy_policy.html"
+    },
+    "geometry": {
+        "type": "Polygon",
                 "coordinates": [
                     [
                         27.63816764832,

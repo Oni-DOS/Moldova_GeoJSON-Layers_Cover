@@ -1,22 +1,26 @@
 {
     "type": "Feature",
     "properties": {
-        "description": "GSI Kiban 2500 via aginfo.cgk.affrc.go.jp. Good for tracing, but a bit older.",
+        "description": "2016 Ortophotos, Moldova, Scale 1:5000, 20cm, true colours.",
         "id": "Ortofoto_2016_RM",
-        "name": "2016 Ortofoto RM",
+        "name": "Moldova Ortoimagini (2016)",
         "type": "wmts",
         "url": "https://moldova-map.md/geoserver/gwc/service/wmts?layer=orthophoto:Ortofoto_2016_RM&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
         "country_code": "MD",
         "icon": "http://geoportalinds.gov.md/geonetwork/images/logos/dac139d4-147d-49a2-8ebe-370d6d603327.png",
-        "license_url": "https://wiki.openstreetmap.org/wiki/GSI_KIBAN",
+        "best": true,
+        "available_projections": [
+		  "EPSG:4026",
+          "EPSG:4326"
+    ],
+        "start_date": "2016",
         "attribution": {
-            "url": "https://aginfo.cgk.affrc.go.jp/mapprv/tou.html.ja",
-            "text": "GSI KIBAN 2500"
+            "url": "http://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/e3bfccb6-259a-4753-bb56-545d277f9bc3",
+            "text": "© Agenţia Relaţii Funciare şi Cadastru a Republicii Moldova / Geoportal INDS / Moldova Ortofoto 2016",
+            "required": true
         },
-        "max_zoom": 20,
-        "min_zoom": 15,
         "category": "photo",
-        "privacy_policy_url": "http://www.naro.affrc.go.jp/privacy_policy.html"
+        "privacy_policy_url": "https://www.legis.md/cautare/getResults?doc_id=120848"
     },
  "geometry": {
         "type": "Polygon",

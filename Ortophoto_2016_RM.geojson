@@ -1,9 +1,9 @@
 {
     "type": "Feature",
     "properties": {
-        "description": "2016 Ortophotos, Moldova, Scale 1:5000, 20cm, true colours.",
+        "description": "2016 Ortophotos, Moldova, Scale 1:5000, 20cm, true colours. [Moldova-map.md server]",
         "id": "Ortofoto_2016_RM",
-        "name": "Moldova Ortoimagini (2016)",
+        "name": "Moldova Ortophoto (2016)",
         "type": "wmts",
         "url": "https://moldova-map.md/geoserver/gwc/service/wmts?layer=orthophoto:Ortofoto_2016_RM&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
         "country_code": "MD",
@@ -19,8 +19,7 @@
             "text": "© Agenţia Relaţii Funciare şi Cadastru a Republicii Moldova / Geoportal INDS / Moldova Ortofoto 2016",
             "required": true
         },
-        "category": "photo",
-        "privacy_policy_url": "https://www.legis.md/cautare/getResults?doc_id=120848"
+	"category": "photo"
     },
  "geometry": {
         "type": "Polygon",

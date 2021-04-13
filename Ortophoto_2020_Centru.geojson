@@ -1,15 +1,31 @@
-
 {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": null,
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+    "type": "Feature",
+    "properties": {
+        "description": "2020 Ortophotos, Centre part of Moldova, Scale 1:5000, 20cm, true colours, covers the center part of Moldova. [Moldova-map.md server]",
+        "id": "orthophoto:2020_ortofoto_moldova_centru",
+        "name": "Moldova Ortophoto, Center part (2020)",
+        "type": "wmts",
+        "url": "https://moldova-map.md/geoserver/gwc/service/wmts?layer=orthophoto:2020_ortofoto_moldova_centru&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}",
+        "country_code": "MD",
+        "icon": "http://geoportalinds.gov.md/geonetwork/images/logos/dac139d4-147d-49a2-8ebe-370d6d603327.png",
+        "best": true,
+        "permission_osm": "explicit",
+        "available_projections": [
+            "EPSG:900913"
+        ],
+        "end_date": "2020.06",
+        "category": "photo",
+        "attribution": {
+            "url": "http://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/a28e04a5-b575-4281-a19c-5b83ef84ac74",
+            "text": "© Agenţia Relaţii Funciare şi Cadastru a Republicii Moldova / Geoportal INDS / Ortofoto Moldova, Centru 2020",
+            "required": true
+        }
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
                         28.10485687578,
                         46.84719392657
                     ],
@@ -752,9 +768,8 @@
                     [
                         28.10485687578,
                         46.84719392657
-                    ]
                 ]
-            }
-        }
-    ]
+            ]
+        ]
+    }
 }

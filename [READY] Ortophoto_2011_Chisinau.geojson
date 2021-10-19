@@ -2,7 +2,7 @@
     "type": "Feature",
     "properties": {
         "description": "2011 Chișinău Orthophoto, that covers the entire territory of the City of Chișinău, except its suburban area.",
-        "id": "MoldovaMap-Ortofoto_Chisinau_2011",
+        "id": "MoldovaMap-2011_Ortofoto_Chisinau",
         "name": "Chișinău Orthophoto (2011)",
         "type": "wms",
         "url": "http://moldova-map.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:ortochis_2011&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",

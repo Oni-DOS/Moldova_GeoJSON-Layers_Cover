@@ -1,15 +1,29 @@
-
 {
-    "type": "FeatureCollection",
-    "generator": "JOSM",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": null,
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
+    "type": "Feature",
+    "properties": {
+        "description": "2007 Moldova Ortophotos, Scale 1:5000, 40cm, true colours, covers the entire territory of Moldova, except some areas from the east part of Moldova.",
+        "id": "MoldovaMap-2007_ortofoto_moldova",
+        "name": "Moldova Orthophoto (2007)",
+        "type": "wms",
+        "url": "http://moldova-map.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Ortofoto_2007&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}",
+        "country_code": "MD",
+        "icon": "http://geoportalinds.gov.md/geonetwork/images/logos/dac139d4-147d-49a2-8ebe-370d6d603327.png",https://moldova-map.md/geoserver/ows?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.3.0&SERVICE=WMS&REQUEST=GetMap&LAYERS=orthophoto:Ortochis_2006&STYLES=&CRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}
+        "permission_osm": "explicit",
+        "end_date": "2007",
+        "category": "historicphoto",
+		"license_url": "http://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/4bdb8b36-0964-4e46-b397-46ef5980ef1b",
+		"privacy_policy_url": "https://www.legis.md/cautare/getResults?doc_id=122546",
+        "attribution": {
+            "url": "http://geoportalinds.gov.md/geonetwork/srv/eng/catalog.search#/metadata/4bdb8b36-0964-4e46-b397-46ef5980ef1b",
+            "text": "© Agenţia Relaţii Funciare şi Cadastru a Republicii Moldova / Geoportal INDS / Ortofoto Moldova 2007",
+            "required": true
+        }
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
                         29.08588003968,
                         46.50787873398
                     ],
@@ -2320,9 +2334,8 @@
                     [
                         29.08588003968,
                         46.50787873398
-                    ]
                 ]
-            }
-        }
-    ]
+            ]
+        ]
+    }
 }
